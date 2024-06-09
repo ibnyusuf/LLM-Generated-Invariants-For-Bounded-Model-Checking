@@ -67,7 +67,7 @@ git checkout 61ac5403f04de58b0b172b1bd889355dd326b9aa
 
 Then follow the instructions at the [Vampire Github repo](https://github.com/vprover/vampire) to build. To obtain results similar to ours we recommend building with Z3.
 
-As an alternative to building from source, you can [download Vampire 4.8](https://github.com/vprover/vampire/releases/tag/v4.8casc2023). We have not tested with Vampire 4.8, but expect it to work. Please note that the binary included in the Vampire releases will only run on Linux distros, no macOS.
+As an alternative to building from source, you can [download Vampire 4.8](https://github.com/vprover/vampire/releases/tag/v4.8casc2023). We have not tested with Vampire 4.8, but expect it to work. Please note that the binary included in the Vampire releases will only run on Linux distros, not macOS.
 
 
 # Running ESBMC with Vampire
@@ -84,7 +84,7 @@ Note that for verification to succeed the benchmark must contain suitable invari
 
 # Running the pipelines
 
-We have tested the running the pipeline script with Python version 3.10.11. We expect them to work with similar versions of Python, but cannot guarantee it. The scripts require the Python  `openai` package at version 0.28. This can be installed by:
+We have tested running the pipeline scripts with Python version 3.10.11. We expect them to work with similar versions of Python, but cannot guarantee it. The scripts require the Python  `openai` package at version 0.28. This can be installed by:
 
 ```
 python3 -m pip install openai==0.28
